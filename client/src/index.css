@@ -520,3 +520,12 @@ html[dir="rtl"] .timeline-marker { left: auto; right: calc(-2rem - 9px); }
   .career-grid { display: block; }
   .career-heading { margin-bottom: 3rem; }
 }
+
+
+/* Project filters toolbar styles */
+.project-filters { display: flex; flex-wrap: wrap; align-items: center; gap: .65rem; margin: 2rem 0 2.5rem; padding-bottom: 1.25rem; border-bottom: 1px solid var(--line); }
+.filter-label { display: inline-flex; align-items: center; gap: .4rem; font: 500 .75rem "IBM Plex Mono", monospace; color: var(--ink-muted); text-transform: uppercase; letter-spacing: .06em; margin-right: .5rem; }
+html[dir="rtl"] .filter-label { margin-right: 0; margin-left: .5rem; }
+.filter-btn { padding: .45rem 1rem; border: 1px solid var(--line); border-radius: 999px; background: var(--paper); color: var(--ink-soft); font: 500 .8rem "IBM Plex Mono", monospace; cursor: pointer; transition: all .18s var(--ease-out); }
+.filter-btn:hover { border-color: var(--coral); color: var(--coral); background: rgba(231, 101, 74, .04); transform: translateY(-1px); }
+.filter-btn.is-active { background: var(--coral); border-color: var(--coral); color: var(--paper); box-shadow: 0 4px 12px rgba(231, 101, 74, .25); }

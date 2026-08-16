@@ -8,6 +8,7 @@ import {
   Download,
   ExternalLink,
   FileText,
+  Filter,
   Github,
   Layers3,
   Mail,
@@ -60,7 +61,8 @@ const copy = {
     statementNote: "Scalable architecture and maintainable code outlast temporary demos.",
     selectedBuilds: "Selected builds",
     projectsTitle: <>Projects with a <em>job</em> to do.</>,
-    projectsNote: "An expanded GitHub-grounded selection. Open each repository to inspect the source, history, and current scope.",
+    projectsNote: "An expanded GitHub-grounded selection. Filter by technology or inspect each repository directly.",
+    filterAll: "All",
     inspectRepo: "Inspect repo",
     moreArchive: "MORE IN THE ARCHIVE",
     browseAll: "Browse all public repositories",
@@ -188,7 +190,8 @@ const copy = {
     statementNote: "الهندسة القابلة للتوسع والكود النظيف يعمران أطول من العروض المؤقتة.",
     selectedBuilds: "مشروعات مختارة",
     projectsTitle: <>مشروعات لها <em>وظيفة</em> واضحة.</>,
-    projectsNote: "مجموعة موسعة مبنية على GitHub. افتح كل مستودع لمراجعة المصدر والتاريخ والنطاق الحالي.",
+    projectsNote: "مجموعة موسعة مبنية على GitHub. قم بالتصفية حسب التقنية أو افحص كل مستودع مباشرة.",
+    filterAll: "الكل",
     inspectRepo: "افحص المستودع",
     moreArchive: "المزيد في الأرشيف",
     browseAll: "تصفح كل المستودعات العامة",
@@ -293,34 +296,40 @@ const copy = {
 
 const projects = [
   {
-    number: "01", slug: "tickets", title: { en: "Support Ticketing System", ar: "نظام تذاكر الدعم" }, category: { en: "Operations / Laravel", ar: "عمليات / Laravel" }, description: { en: "A professional support platform built around ticket lifecycle management, secure backend architecture, database migrations, and real-time status updates.", ar: "منصة دعم احترافية لإدارة دورة حياة التذاكر، وبنية خلفية آمنة، وترحيلات قاعدة البيانات، وتحديثات الحالة." }, stack: ["PHP", "Laravel", "Blade", "JavaScript"], signal: { en: "2 stars · public repository", ar: "نجمتان · مستودع عام" }, url: `${GITHUB_ROOT}/tickets`,
+    number: "01", slug: "tickets", title: { en: "Support Ticketing System", ar: "نظام تذاكر الدعم" }, category: { en: "Operations / Laravel", ar: "عمليات / Laravel" }, filterTag: "Laravel", description: { en: "A professional support platform built around ticket lifecycle management, secure backend architecture, database migrations, and real-time status updates.", ar: "منصة دعم احترافية لإدارة دورة حياة التذاكر، وبنية خلفية آمنة، وترحيلات قاعدة البيانات، وتحديثات الحالة." }, stack: ["PHP", "Laravel", "Blade", "JavaScript"], signal: { en: "2 stars · public repository", ar: "نجمتان · مستودع عام" }, url: `${GITHUB_ROOT}/tickets`,
   },
   {
-    number: "02", slug: "hotel", title: { en: "Hotel Reservation System", ar: "نظام حجوزات الفنادق" }, category: { en: "Hospitality / Workflow", ar: "ضيافة / سير عمل" }, description: { en: "An advanced reservation and property management system for organizing bookings, availability, and the operational flow behind a hospitality business.", ar: "نظام متقدم للحجوزات وإدارة العقارات لتنظيم الحجوزات والتوافر ومسار التشغيل خلف نشاط الضيافة." }, stack: ["PHP", "Laravel", "SCSS", "MySQL"], signal: { en: "reservation workflow", ar: "سير عمل الحجوزات" }, url: `${GITHUB_ROOT}/hotel`,
+    number: "02", slug: "hotel", title: { en: "Hotel Reservation System", ar: "نظام حجوزات الفنادق" }, category: { en: "Hospitality / Workflow", ar: "ضيافة / سير عمل" }, filterTag: "Laravel", description: { en: "An advanced reservation and property management system for organizing bookings, availability, and the operational flow behind a hospitality business.", ar: "نظام متقدم للحجوزات وإدارة العقارات لتنظيم الحجوزات والتوافر ومسار التشغيل خلف نشاط الضيافة." }, stack: ["PHP", "Laravel", "SCSS", "MySQL"], signal: { en: "reservation workflow", ar: "سير عمل الحجوزات" }, url: `${GITHUB_ROOT}/hotel`,
   },
   {
-    number: "03", slug: "school-management-system", title: { en: "School Management ERP", ar: "نظام ERP لإدارة المدارس" }, category: { en: "Education / ERP", ar: "تعليم / ERP" }, description: { en: "An enterprise resource planning platform for educational institutions, structured around records, schedules, administration, and reporting.", ar: "منصة تخطيط موارد للمؤسسات التعليمية، منظمة حول السجلات والجداول والإدارة والتقارير." }, stack: ["PHP", "Laravel", "Blade", "ERP"], signal: { en: "enterprise process map", ar: "خريطة عمليات مؤسسية" }, url: `${GITHUB_ROOT}/school-management-system`,
+    number: "03", slug: "school-management-system", title: { en: "School Management ERP", ar: "نظام ERP لإدارة المدارس" }, category: { en: "Education / ERP", ar: "تعليم / ERP" }, filterTag: "Laravel", description: { en: "An enterprise resource planning platform for educational institutions, structured around records, schedules, administration, and reporting.", ar: "منصة تخطيط موارد للمؤسسات التعليمية، منظمة حول السجلات والجداول والإدارة والتقارير." }, stack: ["PHP", "Laravel", "Blade", "ERP"], signal: { en: "enterprise process map", ar: "خريطة عمليات مؤسسية" }, url: `${GITHUB_ROOT}/school-management-system`,
   },
   {
-    number: "04", slug: "soft-ui-laravel-8", title: { en: "Soft UI Admin Dashboard", ar: "لوحة تحكم Soft UI" }, category: { en: "Foundations / Access", ar: "أساسيات / صلاحيات" }, description: { en: "A Laravel 8 admin foundation combining a Soft UI system with Spatie role management for secure, role-aware internal applications.", ar: "أساس إداري بـ Laravel 8 يجمع نظام Soft UI مع إدارة الصلاحيات عبر Spatie لتطبيقات داخلية آمنة." }, stack: ["Laravel 8", "Blade", "Spatie", "RBAC"], signal: { en: "dashboard foundation", ar: "أساس لوحة تحكم" }, url: `${GITHUB_ROOT}/soft-ui-laravel-8`,
+    number: "04", slug: "soft-ui-laravel-8", title: { en: "Soft UI Admin Dashboard", ar: "لوحة تحكم Soft UI" }, category: { en: "Foundations / Access", ar: "أساسيات / صلاحيات" }, filterTag: "Laravel", description: { en: "A Laravel 8 admin foundation combining a Soft UI system with Spatie role management for secure, role-aware internal applications.", ar: "أساس إداري بـ Laravel 8 يجمع نظام Soft UI مع إدارة الصلاحيات عبر Spatie لتطبيقات داخلية آمنة." }, stack: ["Laravel 8", "Blade", "Spatie", "RBAC"], signal: { en: "dashboard foundation", ar: "أساس لوحة تحكم" }, url: `${GITHUB_ROOT}/soft-ui-laravel-8`,
   },
   {
-    number: "05", slug: "yume4u", title: { en: "Yume4u Commerce Platform", ar: "منصة Yume4u للتجارة" }, category: { en: "Commerce / Product", ar: "تجارة / منتج" }, description: { en: "An e-commerce platform focused on user experience, scalable product management, catalog navigation, and a dependable application core.", ar: "منصة تجارة إلكترونية تركز على تجربة المستخدم وإدارة المنتجات والتنقل داخل الكتالوج ونواة تطبيق موثوقة." }, stack: ["Laravel", "PHP", "Docker", "Vue"], signal: { en: "catalog workflow", ar: "سير عمل الكتالوج" }, url: `${GITHUB_ROOT}/yume4u`,
+    number: "05", slug: "yume4u", title: { en: "Yume4u Commerce Platform", ar: "منصة Yume4u للتجارة" }, category: { en: "Commerce / Product", ar: "تجارة / منتج" }, filterTag: "Laravel", description: { en: "An e-commerce platform focused on user experience, scalable product management, catalog navigation, and a dependable application core.", ar: "منصة تجارة إلكترونية تركز على تجربة المستخدم وإدارة المنتجات والتنقل داخل الكتالوج ونواة تطبيق موثوقة." }, stack: ["Laravel", "PHP", "Docker", "Vue"], signal: { en: "catalog workflow", ar: "سير عمل الكتالوج" }, url: `${GITHUB_ROOT}/yume4u`,
   },
   {
-    number: "06", slug: "newsmes", title: { en: "Newsmes Content System", ar: "نظام Newsmes للمحتوى" }, category: { en: "Content / CMS", ar: "محتوى / CMS" }, description: { en: "A modern news and content management system with dynamic categorization, representing the publishing side of the public portfolio.", ar: "نظام حديث لإدارة الأخبار والمحتوى مع تصنيف ديناميكي، يمثل جانب النشر في الأعمال العامة." }, stack: ["PHP", "HTML", "JavaScript", "CMS"], signal: { en: "content operations", ar: "عمليات المحتوى" }, url: `${GITHUB_ROOT}/newsmes`,
+    number: "06", slug: "newsmes", title: { en: "Newsmes Content System", ar: "نظام Newsmes للمحتوى" }, category: { en: "Content / CMS", ar: "محتوى / CMS" }, filterTag: "PHP", description: { en: "A modern news and content management system with dynamic categorization, representing the publishing side of the public portfolio.", ar: "نظام حديث لإدارة الأخبار والمحتوى مع تصنيف ديناميكي، يمثل جانب النشر في الأعمال العامة." }, stack: ["PHP", "HTML", "JavaScript", "CMS"], signal: { en: "content operations", ar: "عمليات المحتوى" }, url: `${GITHUB_ROOT}/newsmes`,
   },
   {
-    number: "07", slug: "logistics", title: { en: "Cemex Logistics Archive", ar: "أرشيف Cemex اللوجستي" }, category: { en: "Archive / Operations", ar: "أرشيف / عمليات" }, description: { en: "A public logistics archive project that points to an operational focus: structuring records so teams can find and act on them faster.", ar: "مشروع أرشيف لوجستي عام يوضح التركيز التشغيلي على تنظيم السجلات لتسهيل الوصول واتخاذ القرار." }, stack: ["PHP", "Laravel", "Archive"], signal: { en: "records workflow", ar: "سير عمل السجلات" }, url: `${GITHUB_ROOT}/logistics`,
+    number: "07", slug: "logistics", title: { en: "Cemex Logistics Archive", ar: "أرشيف Cemex اللوجستي" }, category: { en: "Archive / Operations", ar: "أرشيف / عمليات" }, filterTag: "Laravel", description: { en: "A public logistics archive project that points to an operational focus: structuring records so teams can find and act on them faster.", ar: "مشروع أرشيف لوجستي عام يوضح التركيز التشغيلي على تنظيم السجلات لتسهيل الوصول واتخاذ القرار." }, stack: ["PHP", "Laravel", "Archive"], signal: { en: "records workflow", ar: "سير عمل السجلات" }, url: `${GITHUB_ROOT}/logistics`,
   },
   {
-    number: "08", slug: "oscarpark", title: { en: "Oscarpark / Dart Repository", ar: "Oscarpark / مستودع Dart" }, category: { en: "Mobile direction / Dart", ar: "اتجاه موبايل / Dart" }, description: { en: "A public Dart repository that broadens the portfolio beyond browser applications. Inspect the source for the current product scope.", ar: "مستودع Dart عام يوسع المسار خارج تطبيقات المتصفح. يمكن فحص المصدر لمعرفة نطاق المنتج الحالي." }, stack: ["Dart", "Flutter direction"], signal: { en: "public Dart project", ar: "مشروع Dart عام" }, url: `${GITHUB_ROOT}/oscarpark`,
+    number: "08", slug: "oscarpark", title: { en: "Oscarpark / Dart Repository", ar: "Oscarpark / مستودع Dart" }, category: { en: "Mobile direction / Dart", ar: "اتجاه موبايل / Dart" }, filterTag: "Flutter", description: { en: "A public Dart repository that broadens the portfolio beyond browser applications. Inspect the source for the current product scope.", ar: "مستودع Dart عام يوسع المسار خارج تطبيقات المتصفح. يمكن فحص المصدر لمعرفة نطاق المنتج الحالي." }, stack: ["Dart", "Flutter direction"], signal: { en: "public Dart project", ar: "مشروع Dart عام" }, url: `${GITHUB_ROOT}/oscarpark`,
   },
   {
-    number: "09", slug: "meza", title: { en: "Meza / Single-Seller Commerce", ar: "Meza / تجارة البائع الواحد" }, category: { en: "Commerce / Dart", ar: "تجارة / Dart" }, description: { en: "A public Dart repository connected to a single-seller commerce direction, extending the product portfolio into mobile-oriented work.", ar: "مستودع Dart عام مرتبط باتجاه تجارة البائع الواحد، ويمد محفظة المنتجات نحو العمل الموجه للموبايل." }, stack: ["Dart", "Flutter direction", "Commerce"], signal: { en: "mobile commerce direction", ar: "اتجاه تجارة موبايل" }, url: `${GITHUB_ROOT}/meza`,
+    number: "09", slug: "meza", title: { en: "Meza / Single-Seller Commerce", ar: "Meza / تجارة البائع الواحد" }, category: { en: "Commerce / Dart", ar: "تجارة / Dart" }, filterTag: "Flutter", description: { en: "A public Dart repository connected to a single-seller commerce direction, extending the product portfolio into mobile-oriented work.", ar: "مستودع Dart عام مرتبط باتجاه تجارة البائع الواحد، ويمد محفظة المنتجات نحو العمل الموجه للموبايل." }, stack: ["Dart", "Flutter direction", "Commerce"], signal: { en: "mobile commerce direction", ar: "اتجاه تجارة موبايل" }, url: `${GITHUB_ROOT}/meza`,
   },
   {
-    number: "10", slug: "agenticSeekFork", title: { en: "AgenticSeek Fork / Local Agents", ar: "AgenticSeek Fork / وكلاء محليون" }, category: { en: "Exploration / Python", ar: "استكشاف / Python" }, description: { en: "A public fork explored as a local-agent reference. It is labeled as a fork and not presented as original product ownership.", ar: "نسخة عامة تمت دراستها كمرجع للوكلاء المحليين. تم وسمها بوضوح كـ fork وليست منتجاً أصلياً منسوباً إليك." }, stack: ["Python", "JavaScript", "Shell"], signal: { en: "fork / exploration", ar: "نسخة / استكشاف" }, url: `${GITHUB_ROOT}/agenticSeekFork`,
+    number: "10", slug: "agenticSeekFork", title: { en: "AgenticSeek Fork / Local Agents", ar: "AgenticSeek Fork / وكلاء محليون" }, category: { en: "Exploration / Python", ar: "استكشاف / Python" }, filterTag: "Automation", description: { en: "A public fork explored as a local-agent reference. It is labeled as a fork and not presented as original product ownership.", ar: "نسخة عامة تمت دراستها كمرجع للوكلاء المحليين. تم وسمها بوضوح كـ fork وليست منتجاً أصلياً منسوباً إليك." }, stack: ["Python", "JavaScript", "Shell"], signal: { en: "fork / exploration", ar: "نسخة / استكشاف" }, url: `${GITHUB_ROOT}/agenticSeekFork`,
+  },
+  {
+    number: "11", slug: "n8n-automations", title: { en: "n8n Enterprise Automation Suite", ar: "حزمة أتمتة n8n المؤسسية" }, category: { en: "Automation / Integration", ar: "أتمتة / تكامل" }, filterTag: "Automation", description: { en: "Production-grade workflow automations for HR, alerting pipelines, and webhook handlers that cut manual routing time by half.", ar: "مسارات أتمتة إنتاجية للموارد البشرية، وتنبيهات الأنظمة، ومستقبلات Webhook التي تخفض الوقت اليدوي إلى النصف." }, stack: ["n8n", "Webhooks", "JSON", "APIs"], signal: { en: "workflow automation", ar: "أتمتة سير العمل" }, url: `${GITHUB_ROOT}`,
+  },
+  {
+    number: "12", slug: "flutter-pos-client", title: { en: "Flutter POS & Invoicing Client", ar: "تيم وclient نقاط البيع Flutter" }, category: { en: "Mobile / Commerce", ar: "موبايل / تجارة" }, filterTag: "Flutter", description: { en: "Cross-platform client for inventory lookups, fast barcode scanning, and offline-first queue synchronization with Laravel backend.", ar: "تطبيق متعدد المنصات للبحث في المخزون، مسح الباركود السريع، ومزامنة طابور العمل دون اتصال مع خلفية Laravel." }, stack: ["Flutter", "Dart", "REST APIs", "SQLite"], signal: { en: "mobile client build", ar: "تطبيق عميل موبايل" }, url: `${GITHUB_ROOT}`,
   },
 ] as const;
 
@@ -382,6 +391,7 @@ export default function Home() {
   const [theme, setTheme] = useState<Theme>(() => {
     try { return window.localStorage.getItem("ahmed-theme") === "dark" ? "dark" : "light"; } catch { return "light"; }
   });
+  const [activeFilter, setActiveFilter] = useState<string>("All");
   const [submitted, setSubmitted] = useState(false);
   const labels = copy[locale];
 
@@ -401,6 +411,10 @@ export default function Home() {
   const printResume = () => window.print();
   const toggleLocale = () => { setLocale((current) => current === "en" ? "ar" : "en"); closeMenu(); };
   const toggleTheme = () => setTheme((current) => current === "light" ? "dark" : "light");
+
+  const filteredProjects = activeFilter === "All"
+    ? projects
+    : projects.filter((p) => p.filterTag === activeFilter || p.stack.some((s) => s.toLowerCase().includes(activeFilter.toLowerCase())));
 
   const handleContactSubmit = (event: FormEvent<HTMLFormElement>) => {
     event.preventDefault();
@@ -442,7 +456,42 @@ export default function Home() {
 
         <section className="statement-section section-paper"><div className="vertical-rail" aria-hidden="true"><span>{labels.shortVersion}</span></div><div className="statement-grid page-pad"><div className="statement-kicker"><span>{labels.whatMake}</span><strong>→</strong></div><div className="statement-copy"><p className="statement-lead">{labels.statementLead}</p><p>{labels.statementText}</p></div><div className="statement-note"><span>[ 02 ]</span><p>{labels.statementNote}</p></div></div></section>
 
-        <section className="work-section page-pad" id="work"><div className="section-heading"><div><SectionLabel index="02">{labels.selectedBuilds}</SectionLabel><h2>{labels.projectsTitle}</h2></div><p className="section-heading__note">{labels.projectsNote}</p></div><div className="project-list">{projects.map((project) => <ProjectRow project={project} locale={locale} labels={labels} key={project.slug} />)}</div><div className="work-endcap"><span>{labels.moreArchive}</span><a className="text-link text-link--large" href={GITHUB_ROOT} target="_blank" rel="noreferrer">{labels.browseAll} <Github size={17} /></a></div></section>
+        <section className="work-section page-pad" id="work">
+          <div className="section-heading">
+            <div>
+              <SectionLabel index="02">{labels.selectedBuilds}</SectionLabel>
+              <h2>{labels.projectsTitle}</h2>
+            </div>
+            <p className="section-heading__note">{labels.projectsNote}</p>
+          </div>
+
+          <div className="project-filters" aria-label="Project technology filters">
+            <span className="filter-label"><Filter size={14} /> {locale === "ar" ? "فلترة حسب التقنية:" : "Filter by:"}</span>
+            {["All", "Laravel", "Flutter", "PHP", "Automation"].map((tag) => (
+              <button
+                key={tag}
+                type="button"
+                className={`filter-btn ${activeFilter === tag ? "is-active" : ""}`}
+                onClick={() => setActiveFilter(tag)}
+              >
+                {tag === "All" ? labels.filterAll : tag}
+              </button>
+            ))}
+          </div>
+
+          <div className="project-list">
+            {filteredProjects.map((project) => (
+              <ProjectRow project={project} locale={locale} labels={labels} key={project.slug} />
+            ))}
+          </div>
+
+          <div className="work-endcap">
+            <span>{labels.moreArchive}</span>
+            <a className="text-link text-link--large" href={GITHUB_ROOT} target="_blank" rel="noreferrer">
+              {labels.browseAll} <Github size={17} />
+            </a>
+          </div>
+        </section>
 
         <section className="career-section section-paper" id="career">
           <div className="page-pad career-grid">

@@ -478,3 +478,45 @@ html[dir="rtl"] .contact-detail > svg:last-child { margin-left: 0; margin-right:
   .contact-details { display: grid; grid-template-columns: 1fr; }
   .contact-detail { width: 100%; }
 }
+
+
+/* Hover effects & interactive Polish — smooth tactile depth and lift on cards and buttons */
+.project-row { transition: background .22s var(--ease-out), transform .2s var(--ease-out), box-shadow .2s var(--ease-out); }
+.project-row:hover { background: var(--paper-light); transform: translateX(4px); box-shadow: -4px 0 0 var(--coral); }
+html[dir="rtl"] .project-row:hover { transform: translateX(-4px); box-shadow: 4px 0 0 var(--coral); }
+
+.skill-card { transition: transform .2s var(--ease-out), background-color .2s var(--ease-out); }
+.skill-card:hover { transform: translateY(-3px); background: rgba(231, 101, 74, .04); }
+
+.button { transition: background .2s var(--ease-out), color .2s var(--ease-out), border-color .2s var(--ease-out), transform .16s var(--ease-out), box-shadow .2s var(--ease-out); }
+.button:hover { transform: translateY(-2px); box-shadow: 0 4px 12px rgba(31, 41, 41, .12); }
+.button:active { transform: translateY(0) scale(.97); box-shadow: none; }
+
+.contact-detail { transition: background .18s var(--ease-out), border-color .18s var(--ease-out), transform .16s var(--ease-out), box-shadow .18s var(--ease-out); }
+.contact-detail:hover { border-color: var(--ink); background: rgba(244, 240, 232, .55); transform: translateY(-2px); box-shadow: 0 4px 10px rgba(31, 41, 41, .08); }
+
+.header-tool { transition: color .18s var(--ease-out), border-color .18s var(--ease-out), background .18s var(--ease-out), transform .16s var(--ease-out); }
+.header-tool:hover { transform: translateY(-1px); }
+
+/* Career Timeline styles */
+.career-section { padding-top: clamp(5rem, 9vw, 8rem); padding-bottom: clamp(5rem, 9vw, 8rem); }
+.career-grid { display: grid; grid-template-columns: minmax(280px, 1.05fr) minmax(340px, 1.55fr); gap: clamp(3rem, 6vw, 6rem); }
+.career-heading h2 { margin: 1.15rem 0 0; font: 600 clamp(2.5rem, 4.8vw, 4.8rem)/.94 "Space Grotesk", sans-serif; letter-spacing: -.075em; }
+.career-heading h2 em { color: var(--coral); font-style: normal; }
+.timeline { position: relative; padding-left: 2rem; border-left: 2px solid var(--line); }
+html[dir="rtl"] .timeline { padding-left: 0; padding-right: 2rem; border-left: 0; border-right: 2px solid var(--line); }
+.timeline-item { position: relative; margin-bottom: 3.2rem; }
+.timeline-item:last-child { margin-bottom: 0; }
+.timeline-marker { position: absolute; left: calc(-2rem - 9px); top: 2px; display: grid; place-items: center; width: 18px; height: 18px; background: var(--paper); border: 2px solid var(--coral); color: var(--coral); border-radius: 50%; transition: transform .2s var(--ease-out), background .2s var(--ease-out), color .2s var(--ease-out); }
+.timeline-item:hover .timeline-marker { background: var(--coral); color: var(--paper); transform: scale(1.15); }
+html[dir="rtl"] .timeline-marker { left: auto; right: calc(-2rem - 9px); }
+.timeline-meta { display: flex; align-items: center; justify-content: space-between; gap: 1rem; margin-bottom: .45rem; font: 500 .68rem "IBM Plex Mono", monospace; text-transform: uppercase; letter-spacing: .08em; }
+.timeline-period { color: var(--coral-deep); }
+.timeline-company { color: var(--teal); }
+.timeline-content h3 { margin: 0 0 .65rem; font: 500 clamp(1.25rem, 2vw, 1.65rem)/1.2 "Space Grotesk", sans-serif; letter-spacing: -.03em; }
+.timeline-content p { margin: 0; color: var(--ink-soft); font-size: .92rem; line-height: 1.55; }
+
+@media (max-width: 980px) {
+  .career-grid { display: block; }
+  .career-heading { margin-bottom: 3rem; }
+}

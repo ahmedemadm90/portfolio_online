@@ -790,7 +790,7 @@ function ProjectRow({ project, locale, labels }: { project: (typeof projects)[nu
         <h3>{project.title[locale]}</h3>
         <p>{project.description[locale]}</p>
         <div className="project-row__footer">
-          <div className="stack-list" aria-label={`${project.title[locale]} technologies`}>{project.stack.map((item) => <span key={item}>{item}</span>)}</div>
+          <div className="stack-list" aria-label={`${project.title[locale]} technologies`}>{project.stack.map((item, index) => <span key={`${item}-${index}`}>{item}</span>)}</div>
           <a className="text-link" href={project.url} target="_blank" rel="noreferrer" aria-label={`${labels.inspectRepo}: ${project.title[locale]}`}>
             {labels.inspectRepo} <ArrowUpRight size={16} strokeWidth={1.8} />
           </a>
@@ -949,7 +949,7 @@ export default function Home() {
                     <h3>{item.role[locale]}</h3>
                     <p>{item.description[locale]}</p>
                     <div className="stack-list" style={{ marginTop: "1rem" }}>
-                      {item.stack.map((tech) => <span key={tech}>{tech}</span>)}
+                      {item.stack.map((tech, index) => <span key={`${tech}-${index}`}>{tech}</span>)}
                     </div>
                   </div>
                 </div>

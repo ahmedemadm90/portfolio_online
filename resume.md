@@ -17,8 +17,8 @@ Software Engineer focused on Laravel and PHP systems, automation-minded workflow
 | Domain | Competencies & Technologies |
 | :--- | :--- |
 | **Backend Engineering** | PHP, Laravel, RESTful APIs, MySQL, Database Migration, Object-Oriented Design, Spatie Role Management |
-| **Automation & Systems** | Workflow Scripting, Python, Process Optimization, System Archiving, Automated Task Management |
-| **Frontend & UI** | JavaScript (ES6+), HTML5, CSS3/SCSS, Tailwind CSS, Blade Templates, Responsive Design |
+| **Automation & Systems** | n8n, Workflow Scripting, Python, Process Optimization, System Archiving, Automated Task Management |
+| **Frontend & UI** | Flutter, Dart, JavaScript (ES6+), HTML5, CSS3/SCSS, Tailwind CSS, Blade Templates, Responsive Design |
 | **Tools & Version Control** | Git, GitHub CLI, Composer, Docker, Vite, Agile Development |
 
 ---
@@ -52,6 +52,28 @@ Software Engineer focused on Laravel and PHP systems, automation-minded workflow
 
 ---
 
+### 6. Newsmes Content Management System (`newsmes`)
+- **Repository:** [github.com/ahmedemadm90/newsmes](https://github.com/ahmedemadm90/newsmes)
+- **Technologies:** PHP, HTML, JavaScript, CMS
+- **Description:** A modern news and content management system with dynamic categorization and a publishing-oriented workflow.
+
+### 7. Logistics Archive (`logistics`)
+- **Repository:** [github.com/ahmedemadm90/logistics](https://github.com/ahmedemadm90/logistics)
+- **Technologies:** PHP, Laravel
+- **Description:** An operational archive project focused on making records easier to organize, retrieve, and act on.
+
+### 8. Dart / Mobile Direction (`oscarpark`, `meza`)
+- **Repositories:** [oscarpark](https://github.com/ahmedemadm90/oscarpark) · [meza](https://github.com/ahmedemadm90/meza)
+- **Technologies:** Dart, Flutter direction, Commerce workflows
+- **Description:** Public Dart repositories that extend the portfolio beyond browser applications into mobile-oriented and commerce product directions. Scope should be verified from the source before formal case-study use.
+
+### 9. Local Agent Exploration (`agenticSeekFork`)
+- **Repository:** [github.com/ahmedemadm90/agenticSeekFork](https://github.com/ahmedemadm90/agenticSeekFork)
+- **Technologies:** Python, JavaScript, Shell
+- **Description:** A public fork explored as a local-agent reference. It is labeled as a fork and is not presented as original product ownership.
+
+---
+
 ## Professional Experience & Applied Engineering
 
 - **Web & Full-Stack Development:** Public repositories span content management (`newsmes`), reservation management (`hotel`), education ERP, e-commerce, dashboards, and support operations.
@@ -62,5 +84,5 @@ Software Engineer focused on Laravel and PHP systems, automation-minded workflow
 
 ## Education & Professional Growth
 
-- **Continuous Learning & Technical R&D:** Explores automation patterns, local agentic architectures, and modern web frameworks through public code and repository experiments.
+- **Continuous Learning & Technical R&D:** Explores automation patterns with n8n, local agentic architectures, Flutter/Dart mobile directions, and modern web frameworks through public code and repository experiments.
 - **Language Proficiency:** Arabic (Native), English (Professional Working Proficiency) — self-reported profile detail to be confirmed by the candidate.

@@ -35,3 +35,9 @@
 - [x] جعل مفاتيح أزرار الفلترة وقوائم التقنيات فريدة وثابتة.
 - [x] تشغيل TypeScript وProduction Build والتحقق من الصفحة.
 - [ ] حفظ checkpoint جديد للإصلاح.
+
+## إخفاء مستودع البورتفوليو
+
+- [x] تحويل portfolio_online إلى Private على GitHub.
+- [x] إزالة portfolio_online من قائمة المشاريع المعروضة.
+- [x] تشغيل الفحوصات وحفظ checkpoint جديد.

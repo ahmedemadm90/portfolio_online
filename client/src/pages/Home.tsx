@@ -296,17 +296,6 @@ const copy = {
 
 const projects = [
   {
-    number: "01",
-    slug: "portfolio_online",
-    title: { en: "portfolio_online", ar: "portfolio_online" },
-    category: { en: "TypeScript / Public Repository", ar: "TypeScript / مستودع عام" },
-    filterTag: "JavaScript",
-    description: { en: "موقع بورتفوليو احترافي يعرض خبرة أحمد عماد في البرمجة والأتمتة ومشروعاته مفتوحة المصدر على GitHub، مع قسم سيرة ذاتية وتواصل. · Built with Manus", ar: "موقع بورتفوليو احترافي يعرض خبرة أحمد عماد في البرمجة والأتمتة ومشروعاته مفتوحة المصدر على GitHub، مع قسم سيرة ذاتية وتواصل. · Built with Manus" },
-    stack: ["TypeScript", "JavaScript"],
-    signal: { en: "public repository", ar: "مستودع عام" },
-    url: "https://github.com/ahmedemadm90/portfolio_online",
-  },
-  {
     number: "02",
     slug: "car-rental-marketplace-saas",
     title: { en: "car-rental-marketplace-saas", ar: "car-rental-marketplace-saas" },

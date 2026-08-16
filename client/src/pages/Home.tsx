@@ -9,8 +9,10 @@ import {
   Github,
   Layers3,
   Mail,
+  MessageCircle,
   Menu,
   Moon,
+  Phone,
   Sun,
   Terminal,
   Workflow,
@@ -31,6 +33,8 @@ type Theme = "light" | "dark";
 
 const GITHUB_ROOT = "https://github.com/ahmedemadm90";
 const CONTACT_EMAIL = "ahmedemadm90@gmail.com";
+const CONTACT_PHONE = "+201019030515";
+const WHATSAPP_URL = "https://wa.me/201019030515";
 const BRAND_MARK = "/manus-storage/ahmed-mark_bba7fd9c.png";
 
 const copy = {
@@ -334,7 +338,7 @@ export default function Home() {
 
         <section className="profile-section section-paper"><div className="page-pad profile-grid"><div className="profile-image"><img src="/manus-storage/engineer-desk_7396362b.jpg" alt={labels.altDesk} /><span>{labels.workbench}</span></div><div className="profile-copy"><SectionLabel index="05">{labels.profile}</SectionLabel><h2>{labels.profileTitle}</h2><p>{labels.profileText}</p><p className="profile-copy__small">{labels.profileNote}</p><div className="profile-actions"><button className="button button--coral" type="button" onClick={printResume}>{labels.printSave} <Download size={16} /></button><a className="button button--outline" href={GITHUB_ROOT} target="_blank" rel="noreferrer">{labels.githubProfile} <ExternalLink size={16} /></a></div></div></div></section>
 
-        <section className="contact-section section-coral" id="resume"><div className="page-pad contact-grid"><div><SectionLabel index="06">{labels.openChannel}</SectionLabel><h2>{labels.contactTitle}</h2><div className="contact-copy"><p>{labels.contactText}</p><span className="contact-footnote">{labels.contactFootnote}</span></div></div><form className="contact-form" onSubmit={handleContactSubmit}><div className="contact-form__row"><label><span>{labels.form.name}</span><input name="name" required autoComplete="name" /></label><label><span>{labels.form.email}</span><input name="email" type="email" required autoComplete="email" /></label></div><label><span>{labels.form.subject}</span><input name="subject" required /></label><label><span>{labels.form.message}</span><textarea name="message" rows={5} required /></label><div className="contact-form__submit"><button className="button button--ink" type="submit"><Mail size={17} /> {labels.form.send}</button><span>{labels.form.direct}</span></div>{submitted && <p className="form-success" role="status">{labels.form.opened}</p>}</form></div></section>
+        <section className="contact-section section-coral" id="resume"><div className="page-pad contact-grid"><div><SectionLabel index="06">{labels.openChannel}</SectionLabel><h2>{labels.contactTitle}</h2><div className="contact-copy"><p>{labels.contactText}</p><div className="contact-details"><a className="contact-detail" href={`tel:${CONTACT_PHONE}`}><Phone size={18} /><span><small>{locale === "ar" ? "الهاتف" : "Mobile"}</small><strong dir="ltr">+20 101 903 0515</strong></span></a><a className="contact-detail" href={`${WHATSAPP_URL}?text=${encodeURIComponent(locale === "ar" ? "مرحباً أحمد، أريد مناقشة مشروع." : "Hi Ahmed, I would like to discuss a project.")}`} target="_blank" rel="noreferrer"><MessageCircle size={18} /><span><small>WhatsApp</small><strong dir="ltr">+20 101 903 0515</strong></span><ArrowUpRight size={16} /></a></div><span className="contact-footnote">{labels.contactFootnote}</span></div></div><form className="contact-form" onSubmit={handleContactSubmit}><div className="contact-form__row"><label><span>{labels.form.name}</span><input name="name" required autoComplete="name" /></label><label><span>{labels.form.email}</span><input name="email" type="email" required autoComplete="email" /></label></div><label><span>{labels.form.subject}</span><input name="subject" required /></label><label><span>{labels.form.message}</span><textarea name="message" rows={5} required /></label><div className="contact-form__submit"><button className="button button--ink" type="submit"><Mail size={17} /> {labels.form.send}</button><span>{labels.form.direct}</span></div>{submitted && <p className="form-success" role="status">{labels.form.opened}</p>}</form></div></section>
       </main>
 
       <footer className="site-footer"><div className="page-pad footer-inner"><div className="footer-brand"><img src={BRAND_MARK} alt="" /><span>Ahmed Emad / Portfolio</span></div><span className="footer-note">{labels.footer}</span><a href="#top" className="footer-top">{labels.footerTop} <ArrowDown size={15} /></a></div></footer>

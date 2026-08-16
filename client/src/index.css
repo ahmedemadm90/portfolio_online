@@ -460,3 +460,21 @@ html[dir="rtl"] .footer-top svg { transform: rotate(180deg); }
   html[dir="rtl"] .hero-stamp { right: -1.2rem; }
   html[dir="rtl"] .project-row__signal { text-align: right; }
 }
+
+
+/* Contact channel extension — direct phone and WhatsApp routes stay visible beside the form. */
+.contact-details { display: flex; flex-wrap: wrap; gap: .75rem; margin: 1.7rem 0 1.45rem; }
+.contact-detail { display: inline-flex; align-items: center; gap: .65rem; min-width: 205px; padding: .72rem .78rem; border: 1px solid rgba(31, 41, 41, .42); color: var(--ink); background: rgba(244, 240, 232, .2); text-decoration: none; transition: background .18s var(--ease-out), border-color .18s var(--ease-out), transform .16s var(--ease-out); }
+.contact-detail:hover { border-color: var(--ink); background: rgba(244, 240, 232, .55); }
+.contact-detail:active { transform: scale(.98); }
+.contact-detail > svg:first-child { color: var(--ink); flex: 0 0 auto; }
+.contact-detail > svg:last-child { margin-left: auto; color: var(--ink); }
+.contact-detail span { display: flex; flex-direction: column; gap: .16rem; }
+.contact-detail small { font: 500 .58rem "IBM Plex Mono", monospace; letter-spacing: .08em; text-transform: uppercase; }
+.contact-detail strong { font: 500 .82rem "IBM Plex Mono", monospace; letter-spacing: .02em; }
+html[dir="rtl"] .contact-detail { text-align: right; }
+html[dir="rtl"] .contact-detail > svg:last-child { margin-left: 0; margin-right: auto; }
+@media (max-width: 720px) {
+  .contact-details { display: grid; grid-template-columns: 1fr; }
+  .contact-detail { width: 100%; }
+}

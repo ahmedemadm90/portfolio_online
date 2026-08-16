@@ -483,6 +483,28 @@ export default function Home() {
     try { window.localStorage.setItem("ahmed-locale", locale); } catch { /* storage is optional */ }
   }, [locale]);
 
+  useEffect(() => {
+    // The hosting layer injects its badge inside an open shadow root, outside React.
+    const hidePlatformBadge = () => {
+      const host = document.querySelector("manus-content-root") as HTMLElement | null;
+      const shadow = host?.shadowRoot;
+      if (!shadow) return;
+      const candidates = Array.from(shadow.querySelectorAll<HTMLElement>("*"))
+        .filter((element) => /made with manus/i.test(element.textContent?.trim() ?? ""))
+        .sort((a, b) => a.children.length - b.children.length);
+      const match = candidates[0];
+      if (!match || match === host) return;
+      const badge = match.closest<HTMLElement>("a, button, div") ?? match.parentElement ?? match;
+      badge.style.display = "none";
+      badge.setAttribute("aria-hidden", "true");
+    };
+
+    hidePlatformBadge();
+    const observer = new MutationObserver(hidePlatformBadge);
+    observer.observe(document.body, { childList: true, subtree: true });
+    return () => observer.disconnect();
+  }, []);
+
   const closeMenu = () => setMenuOpen(false);
   const printResume = () => window.print();
   const toggleLocale = () => { setLocale((current) => current === "en" ? "ar" : "en"); closeMenu(); };

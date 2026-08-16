@@ -1,0 +1,379 @@
+[1;37m[[m
+  [1;37m{[m
+    [1;34m"description"[m[1;37m:[m [32m"موقع بورتفوليو احترافي يعرض خبرة أحمد عماد في البرمجة والأتمتة ومشروعاته مفتوحة المصدر على GitHub، مع قسم سيرة ذاتية وتواصل. · Built with Manus"[m[1;37m,[m
+    [1;34m"isFork"[m[1;37m:[m [33mfalse[m[1;37m,[m
+    [1;34m"name"[m[1;37m:[m [32m"portfolio_online"[m[1;37m,[m
+    [1;34m"primaryLanguage"[m[1;37m:[m [1;37m{[m
+      [1;34m"name"[m[1;37m:[m [32m"TypeScript"[m
+    [1;37m}[m[1;37m,[m
+    [1;34m"url"[m[1;37m:[m [32m"https://github.com/ahmedemadm90/portfolio_online"[m
+  [1;37m}[m[1;37m,[m
+  [1;37m{[m
+    [1;34m"description"[m[1;37m:[m [32m"Enterprise multi-tenant car rental marketplace SaaS platform"[m[1;37m,[m
+    [1;34m"isFork"[m[1;37m:[m [33mfalse[m[1;37m,[m
+    [1;34m"name"[m[1;37m:[m [32m"car-rental-marketplace-saas"[m[1;37m,[m
+    [1;34m"primaryLanguage"[m[1;37m:[m [1;37m{[m
+      [1;34m"name"[m[1;37m:[m [32m"PHP"[m
+    [1;37m}[m[1;37m,[m
+    [1;34m"url"[m[1;37m:[m [32m"https://github.com/ahmedemadm90/car-rental-marketplace-saas"[m
+  [1;37m}[m[1;37m,[m
+  [1;37m{[m
+    [1;34m"description"[m[1;37m:[m [32m""[m[1;37m,[m
+    [1;34m"isFork"[m[1;37m:[m [33mfalse[m[1;37m,[m
+    [1;34m"name"[m[1;37m:[m [32m"car-rental-fleet-management"[m[1;37m,[m
+    [1;34m"primaryLanguage"[m[1;37m:[m [1;37m{[m
+      [1;34m"name"[m[1;37m:[m [32m"PHP"[m
+    [1;37m}[m[1;37m,[m
+    [1;34m"url"[m[1;37m:[m [32m"https://github.com/ahmedemadm90/car-rental-fleet-management"[m
+  [1;37m}[m[1;37m,[m
+  [1;37m{[m
+    [1;34m"description"[m[1;37m:[m [32m"Advanced Hotel Reservation and Property Management System."[m[1;37m,[m
+    [1;34m"isFork"[m[1;37m:[m [33mfalse[m[1;37m,[m
+    [1;34m"name"[m[1;37m:[m [32m"hotel"[m[1;37m,[m
+    [1;34m"primaryLanguage"[m[1;37m:[m [1;37m{[m
+      [1;34m"name"[m[1;37m:[m [32m"CSS"[m
+    [1;37m}[m[1;37m,[m
+    [1;34m"url"[m[1;37m:[m [32m"https://github.com/ahmedemadm90/hotel"[m
+  [1;37m}[m[1;37m,[m
+  [1;37m{[m
+    [1;34m"description"[m[1;37m:[m [32m"Admin Dashboard boilerplate featuring Soft UI design and Spatie role management."[m[1;37m,[m
+    [1;34m"isFork"[m[1;37m:[m [33mfalse[m[1;37m,[m
+    [1;34m"name"[m[1;37m:[m [32m"soft-ui-laravel-8"[m[1;37m,[m
+    [1;34m"primaryLanguage"[m[1;37m:[m [1;37m{[m
+      [1;34m"name"[m[1;37m:[m [32m"Blade"[m
+    [1;37m}[m[1;37m,[m
+    [1;34m"url"[m[1;37m:[m [32m"https://github.com/ahmedemadm90/soft-ui-laravel-8"[m
+  [1;37m}[m[1;37m,[m
+  [1;37m{[m
+    [1;34m"description"[m[1;37m:[m [32m"Comprehensive Enterprise Resource Planning (ERP) for educational institutions."[m[1;37m,[m
+    [1;34m"isFork"[m[1;37m:[m [33mtrue[m[1;37m,[m
+    [1;34m"name"[m[1;37m:[m [32m"school-management-system"[m[1;37m,[m
+    [1;34m"primaryLanguage"[m[1;37m:[m [1;37m{[m
+      [1;34m"name"[m[1;37m:[m [32m"PHP"[m
+    [1;37m}[m[1;37m,[m
+    [1;34m"url"[m[1;37m:[m [32m"https://github.com/ahmedemadm90/school-management-system"[m
+  [1;37m}[m[1;37m,[m
+  [1;37m{[m
+    [1;34m"description"[m[1;37m:[m [32m"Modern News & Content Management System with dynamic categorization."[m[1;37m,[m
+    [1;34m"isFork"[m[1;37m:[m [33mfalse[m[1;37m,[m
+    [1;34m"name"[m[1;37m:[m [32m"newsmes"[m[1;37m,[m
+    [1;34m"primaryLanguage"[m[1;37m:[m [1;37m{[m
+      [1;34m"name"[m[1;37m:[m [32m"HTML"[m
+    [1;37m}[m[1;37m,[m
+    [1;34m"url"[m[1;37m:[m [32m"https://github.com/ahmedemadm90/newsmes"[m
+  [1;37m}[m[1;37m,[m
+  [1;37m{[m
+    [1;34m"description"[m[1;37m:[m [32m"E-commerce platform with a focus on user experience and scalable product management."[m[1;37m,[m
+    [1;34m"isFork"[m[1;37m:[m [33mfalse[m[1;37m,[m
+    [1;34m"name"[m[1;37m:[m [32m"yume4u"[m[1;37m,[m
+    [1;34m"primaryLanguage"[m[1;37m:[m [1;37m{[m
+      [1;34m"name"[m[1;37m:[m [32m"Blade"[m
+    [1;37m}[m[1;37m,[m
+    [1;34m"url"[m[1;37m:[m [32m"https://github.com/ahmedemadm90/yume4u"[m
+  [1;37m}[m[1;37m,[m
+  [1;37m{[m
+    [1;34m"description"[m[1;37m:[m [32m""[m[1;37m,[m
+    [1;34m"isFork"[m[1;37m:[m [33mfalse[m[1;37m,[m
+    [1;34m"name"[m[1;37m:[m [32m"ahmedemadm90"[m[1;37m,[m
+    [1;34m"primaryLanguage"[m[1;37m:[m [36mnull[m[1;37m,[m
+    [1;34m"url"[m[1;37m:[m [32m"https://github.com/ahmedemadm90/ahmedemadm90"[m
+  [1;37m}[m[1;37m,[m
+  [1;37m{[m
+    [1;34m"description"[m[1;37m:[m [32m""[m[1;37m,[m
+    [1;34m"isFork"[m[1;37m:[m [33mfalse[m[1;37m,[m
+    [1;34m"name"[m[1;37m:[m [32m"oscarpark"[m[1;37m,[m
+    [1;34m"primaryLanguage"[m[1;37m:[m [1;37m{[m
+      [1;34m"name"[m[1;37m:[m [32m"Dart"[m
+    [1;37m}[m[1;37m,[m
+    [1;34m"url"[m[1;37m:[m [32m"https://github.com/ahmedemadm90/oscarpark"[m
+  [1;37m}[m[1;37m,[m
+  [1;37m{[m
+    [1;34m"description"[m[1;37m:[m [32m"HR Automation & Payroll SaaS - Automated HR and payroll system (Laravel + Flutter + n8n)"[m[1;37m,[m
+    [1;34m"isFork"[m[1;37m:[m [33mfalse[m[1;37m,[m
+    [1;34m"name"[m[1;37m:[m [32m"hr-automation-payroll-saas"[m[1;37m,[m
+    [1;34m"primaryLanguage"[m[1;37m:[m [1;37m{[m
+      [1;34m"name"[m[1;37m:[m [32m"Blade"[m
+    [1;37m}[m[1;37m,[m
+    [1;34m"url"[m[1;37m:[m [32m"https://github.com/ahmedemadm90/hr-automation-payroll-saas"[m
+  [1;37m}[m[1;37m,[m
+  [1;37m{[m
+    [1;34m"description"[m[1;37m:[m [32m"CEMEX Violation Control Center"[m[1;37m,[m
+    [1;34m"isFork"[m[1;37m:[m [33mfalse[m[1;37m,[m
+    [1;34m"name"[m[1;37m:[m [32m"Violations"[m[1;37m,[m
+    [1;34m"primaryLanguage"[m[1;37m:[m [1;37m{[m
+      [1;34m"name"[m[1;37m:[m [32m"HTML"[m
+    [1;37m}[m[1;37m,[m
+    [1;34m"url"[m[1;37m:[m [32m"https://github.com/ahmedemadm90/Violations"[m
+  [1;37m}[m[1;37m,[m
+  [1;37m{[m
+    [1;34m"description"[m[1;37m:[m [32m"Meza Single Seller E-Commerce - Backend Laravel"[m[1;37m,[m
+    [1;34m"isFork"[m[1;37m:[m [33mfalse[m[1;37m,[m
+    [1;34m"name"[m[1;37m:[m [32m"meza"[m[1;37m,[m
+    [1;34m"primaryLanguage"[m[1;37m:[m [1;37m{[m
+      [1;34m"name"[m[1;37m:[m [32m"Dart"[m
+    [1;37m}[m[1;37m,[m
+    [1;34m"url"[m[1;37m:[m [32m"https://github.com/ahmedemadm90/meza"[m
+  [1;37m}[m[1;37m,[m
+  [1;37m{[m
+    [1;34m"description"[m[1;37m:[m [32m""[m[1;37m,[m
+    [1;34m"isFork"[m[1;37m:[m [33mfalse[m[1;37m,[m
+    [1;34m"name"[m[1;37m:[m [32m"esoctest"[m[1;37m,[m
+    [1;34m"primaryLanguage"[m[1;37m:[m [36mnull[m[1;37m,[m
+    [1;34m"url"[m[1;37m:[m [32m"https://github.com/ahmedemadm90/esoctest"[m
+  [1;37m}[m[1;37m,[m
+  [1;37m{[m
+    [1;34m"description"[m[1;37m:[m [32m""[m[1;37m,[m
+    [1;34m"isFork"[m[1;37m:[m [33mfalse[m[1;37m,[m
+    [1;34m"name"[m[1;37m:[m [32m"cemexpythongpt"[m[1;37m,[m
+    [1;34m"primaryLanguage"[m[1;37m:[m [1;37m{[m
+      [1;34m"name"[m[1;37m:[m [32m"Python"[m
+    [1;37m}[m[1;37m,[m
+    [1;34m"url"[m[1;37m:[m [32m"https://github.com/ahmedemadm90/cemexpythongpt"[m
+  [1;37m}[m[1;37m,[m
+  [1;37m{[m
+    [1;34m"description"[m[1;37m:[m [32m"multivendor restaurants manam"[m[1;37m,[m
+    [1;34m"isFork"[m[1;37m:[m [33mfalse[m[1;37m,[m
+    [1;34m"name"[m[1;37m:[m [32m"mat3my"[m[1;37m,[m
+    [1;34m"primaryLanguage"[m[1;37m:[m [36mnull[m[1;37m,[m
+    [1;34m"url"[m[1;37m:[m [32m"https://github.com/ahmedemadm90/mat3my"[m
+  [1;37m}[m[1;37m,[m
+  [1;37m{[m
+    [1;34m"description"[m[1;37m:[m [32m""[m[1;37m,[m
+    [1;34m"isFork"[m[1;37m:[m [33mfalse[m[1;37m,[m
+    [1;34m"name"[m[1;37m:[m [32m"takmool-ui"[m[1;37m,[m
+    [1;34m"primaryLanguage"[m[1;37m:[m [1;37m{[m
+      [1;34m"name"[m[1;37m:[m [32m"Dart"[m
+    [1;37m}[m[1;37m,[m
+    [1;34m"url"[m[1;37m:[m [32m"https://github.com/ahmedemadm90/takmool-ui"[m
+  [1;37m}[m[1;37m,[m
+  [1;37m{[m
+    [1;34m"description"[m[1;37m:[m [32m"Cemex Logistics Archive"[m[1;37m,[m
+    [1;34m"isFork"[m[1;37m:[m [33mfalse[m[1;37m,[m
+    [1;34m"name"[m[1;37m:[m [32m"logistics"[m[1;37m,[m
+    [1;34m"primaryLanguage"[m[1;37m:[m [1;37m{[m
+      [1;34m"name"[m[1;37m:[m [32m"PHP"[m
+    [1;37m}[m[1;37m,[m
+    [1;34m"url"[m[1;37m:[m [32m"https://github.com/ahmedemadm90/logistics"[m
+  [1;37m}[m[1;37m,[m
+  [1;37m{[m
+    [1;34m"description"[m[1;37m:[m [32m""[m[1;37m,[m
+    [1;34m"isFork"[m[1;37m:[m [33mfalse[m[1;37m,[m
+    [1;34m"name"[m[1;37m:[m [32m"qr"[m[1;37m,[m
+    [1;34m"primaryLanguage"[m[1;37m:[m [1;37m{[m
+      [1;34m"name"[m[1;37m:[m [32m"PHP"[m
+    [1;37m}[m[1;37m,[m
+    [1;34m"url"[m[1;37m:[m [32m"https://github.com/ahmedemadm90/qr"[m
+  [1;37m}[m[1;37m,[m
+  [1;37m{[m
+    [1;34m"description"[m[1;37m:[m [32m"Iraqna"[m[1;37m,[m
+    [1;34m"isFork"[m[1;37m:[m [33mfalse[m[1;37m,[m
+    [1;34m"name"[m[1;37m:[m [32m"iraqna"[m[1;37m,[m
+    [1;34m"primaryLanguage"[m[1;37m:[m [1;37m{[m
+      [1;34m"name"[m[1;37m:[m [32m"CSS"[m
+    [1;37m}[m[1;37m,[m
+    [1;34m"url"[m[1;37m:[m [32m"https://github.com/ahmedemadm90/iraqna"[m
+  [1;37m}[m[1;37m,[m
+  [1;37m{[m
+    [1;34m"description"[m[1;37m:[m [32m"Professional Support Ticketing System with Laravel and Real-time updates."[m[1;37m,[m
+    [1;34m"isFork"[m[1;37m:[m [33mfalse[m[1;37m,[m
+    [1;34m"name"[m[1;37m:[m [32m"tickets"[m[1;37m,[m
+    [1;34m"primaryLanguage"[m[1;37m:[m [1;37m{[m
+      [1;34m"name"[m[1;37m:[m [32m"PHP"[m
+    [1;37m}[m[1;37m,[m
+    [1;34m"url"[m[1;37m:[m [32m"https://github.com/ahmedemadm90/tickets"[m
+  [1;37m}[m[1;37m,[m
+  [1;37m{[m
+    [1;34m"description"[m[1;37m:[m [32m"Desktop Personal Multimedia App"[m[1;37m,[m
+    [1;34m"isFork"[m[1;37m:[m [33mfalse[m[1;37m,[m
+    [1;34m"name"[m[1;37m:[m [32m"desktopapp"[m[1;37m,[m
+    [1;34m"primaryLanguage"[m[1;37m:[m [1;37m{[m
+      [1;34m"name"[m[1;37m:[m [32m"JavaScript"[m
+    [1;37m}[m[1;37m,[m
+    [1;34m"url"[m[1;37m:[m [32m"https://github.com/ahmedemadm90/desktopapp"[m
+  [1;37m}[m[1;37m,[m
+  [1;37m{[m
+    [1;34m"description"[m[1;37m:[m [32m""[m[1;37m,[m
+    [1;34m"isFork"[m[1;37m:[m [33mfalse[m[1;37m,[m
+    [1;34m"name"[m[1;37m:[m [32m"hrms"[m[1;37m,[m
+    [1;34m"primaryLanguage"[m[1;37m:[m [1;37m{[m
+      [1;34m"name"[m[1;37m:[m [32m"HTML"[m
+    [1;37m}[m[1;37m,[m
+    [1;34m"url"[m[1;37m:[m [32m"https://github.com/ahmedemadm90/hrms"[m
+  [1;37m}[m[1;37m,[m
+  [1;37m{[m
+    [1;34m"description"[m[1;37m:[m [32m""[m[1;37m,[m
+    [1;34m"isFork"[m[1;37m:[m [33mfalse[m[1;37m,[m
+    [1;34m"name"[m[1;37m:[m [32m"attendance_cards"[m[1;37m,[m
+    [1;34m"primaryLanguage"[m[1;37m:[m [1;37m{[m
+      [1;34m"name"[m[1;37m:[m [32m"JavaScript"[m
+    [1;37m}[m[1;37m,[m
+    [1;34m"url"[m[1;37m:[m [32m"https://github.com/ahmedemadm90/attendance_cards"[m
+  [1;37m}[m[1;37m,[m
+  [1;37m{[m
+    [1;34m"description"[m[1;37m:[m [32m""[m[1;37m,[m
+    [1;34m"isFork"[m[1;37m:[m [33mfalse[m[1;37m,[m
+    [1;34m"name"[m[1;37m:[m [32m"eagleye"[m[1;37m,[m
+    [1;34m"primaryLanguage"[m[1;37m:[m [1;37m{[m
+      [1;34m"name"[m[1;37m:[m [32m"PHP"[m
+    [1;37m}[m[1;37m,[m
+    [1;34m"url"[m[1;37m:[m [32m"https://github.com/ahmedemadm90/eagleye"[m
+  [1;37m}[m[1;37m,[m
+  [1;37m{[m
+    [1;34m"description"[m[1;37m:[m [32m""[m[1;37m,[m
+    [1;34m"isFork"[m[1;37m:[m [33mfalse[m[1;37m,[m
+    [1;34m"name"[m[1;37m:[m [32m"iphone_unlocking"[m[1;37m,[m
+    [1;34m"primaryLanguage"[m[1;37m:[m [1;37m{[m
+      [1;34m"name"[m[1;37m:[m [32m"JavaScript"[m
+    [1;37m}[m[1;37m,[m
+    [1;34m"url"[m[1;37m:[m [32m"https://github.com/ahmedemadm90/iphone_unlocking"[m
+  [1;37m}[m[1;37m,[m
+  [1;37m{[m
+    [1;34m"description"[m[1;37m:[m [32m""[m[1;37m,[m
+    [1;34m"isFork"[m[1;37m:[m [33mfalse[m[1;37m,[m
+    [1;34m"name"[m[1;37m:[m [32m"janubi"[m[1;37m,[m
+    [1;34m"primaryLanguage"[m[1;37m:[m [1;37m{[m
+      [1;34m"name"[m[1;37m:[m [32m"JavaScript"[m
+    [1;37m}[m[1;37m,[m
+    [1;34m"url"[m[1;37m:[m [32m"https://github.com/ahmedemadm90/janubi"[m
+  [1;37m}[m[1;37m,[m
+  [1;37m{[m
+    [1;34m"description"[m[1;37m:[m [32m"Fully Local Manus AI. No APIs, No $200 monthly bills. Enjoy an autonomous agent that thinks, browses the web, and code for the sole cost of electricity. 🔔 Official updates only via twitter @Martin993886460 (Beware of fake account)"[m[1;37m,[m
+    [1;34m"isFork"[m[1;37m:[m [33mtrue[m[1;37m,[m
+    [1;34m"name"[m[1;37m:[m [32m"agenticSeekFork"[m[1;37m,[m
+    [1;34m"primaryLanguage"[m[1;37m:[m [1;37m{[m
+      [1;34m"name"[m[1;37m:[m [32m"Python"[m
+    [1;37m}[m[1;37m,[m
+    [1;34m"url"[m[1;37m:[m [32m"https://github.com/ahmedemadm90/agenticSeekFork"[m
+  [1;37m}[m[1;37m,[m
+  [1;37m{[m
+    [1;34m"description"[m[1;37m:[m [32m"SayDone - Voice-to-Task AI Assistant (Laravel + Flutter)"[m[1;37m,[m
+    [1;34m"isFork"[m[1;37m:[m [33mfalse[m[1;37m,[m
+    [1;34m"name"[m[1;37m:[m [32m"saydone-app"[m[1;37m,[m
+    [1;34m"primaryLanguage"[m[1;37m:[m [1;37m{[m
+      [1;34m"name"[m[1;37m:[m [32m"Blade"[m
+    [1;37m}[m[1;37m,[m
+    [1;34m"url"[m[1;37m:[m [32m"https://github.com/ahmedemadm90/saydone-app"[m
+  [1;37m}[m[1;37m,[m
+  [1;37m{[m
+    [1;34m"description"[m[1;37m:[m [32m"Enterprise-grade n8n automation workflows for business operations and CRM sync."[m[1;37m,[m
+    [1;34m"isFork"[m[1;37m:[m [33mfalse[m[1;37m,[m
+    [1;34m"name"[m[1;37m:[m [32m"autoops-n8n-hub"[m[1;37m,[m
+    [1;34m"primaryLanguage"[m[1;37m:[m [36mnull[m[1;37m,[m
+    [1;34m"url"[m[1;37m:[m [32m"https://github.com/ahmedemadm90/autoops-n8n-hub"[m
+  [1;37m}[m[1;37m,[m
+  [1;37m{[m
+    [1;34m"description"[m[1;37m:[m [32m"Real-time chat platform powered by Laravel WebSockets and Flutter mobile client."[m[1;37m,[m
+    [1;34m"isFork"[m[1;37m:[m [33mfalse[m[1;37m,[m
+    [1;34m"name"[m[1;37m:[m [32m"connectreal-realtime-chat"[m[1;37m,[m
+    [1;34m"primaryLanguage"[m[1;37m:[m [1;37m{[m
+      [1;34m"name"[m[1;37m:[m [32m"PHP"[m
+    [1;37m}[m[1;37m,[m
+    [1;34m"url"[m[1;37m:[m [32m"https://github.com/ahmedemadm90/connectreal-realtime-chat"[m
+  [1;37m}[m[1;37m,[m
+  [1;37m{[m
+    [1;34m"description"[m[1;37m:[m [32m"Smart Inventory & POS SaaS - Intelligent retail management (Laravel + Flutter + n8n)"[m[1;37m,[m
+    [1;34m"isFork"[m[1;37m:[m [33mfalse[m[1;37m,[m
+    [1;34m"name"[m[1;37m:[m [32m"smart-inventory-pos-saas"[m[1;37m,[m
+    [1;34m"primaryLanguage"[m[1;37m:[m [36mnull[m[1;37m,[m
+    [1;34m"url"[m[1;37m:[m [32m"https://github.com/ahmedemadm90/smart-inventory-pos-saas"[m
+  [1;37m}[m[1;37m,[m
+  [1;37m{[m
+    [1;34m"description"[m[1;37m:[m [32m"OmniChannel Support SaaS - Unified customer support platform (Laravel + Flutter + n8n)"[m[1;37m,[m
+    [1;34m"isFork"[m[1;37m:[m [33mfalse[m[1;37m,[m
+    [1;34m"name"[m[1;37m:[m [32m"omnichannel-support-saas"[m[1;37m,[m
+    [1;34m"primaryLanguage"[m[1;37m:[m [1;37m{[m
+      [1;34m"name"[m[1;37m:[m [32m"PHP"[m
+    [1;37m}[m[1;37m,[m
+    [1;34m"url"[m[1;37m:[m [32m"https://github.com/ahmedemadm90/omnichannel-support-saas"[m
+  [1;37m}[m[1;37m,[m
+  [1;37m{[m
+    [1;34m"description"[m[1;37m:[m [32m"Content Marketing Orchestrator SaaS - AI-powered social media management (Laravel + Flutter + n8n)"[m[1;37m,[m
+    [1;34m"isFork"[m[1;37m:[m [33mfalse[m[1;37m,[m
+    [1;34m"name"[m[1;37m:[m [32m"content-marketing-orchestrator-saas"[m[1;37m,[m
+    [1;34m"primaryLanguage"[m[1;37m:[m [1;37m{[m
+      [1;34m"name"[m[1;37m:[m [32m"Blade"[m
+    [1;37m}[m[1;37m,[m
+    [1;34m"url"[m[1;37m:[m [32m"https://github.com/ahmedemadm90/content-marketing-orchestrator-saas"[m
+  [1;37m}[m[1;37m,[m
+  [1;37m{[m
+    [1;34m"description"[m[1;37m:[m [32m"Advanced enterprise bridge connecting Laravel control center with complex n8n automation pipelines."[m[1;37m,[m
+    [1;34m"isFork"[m[1;37m:[m [33mfalse[m[1;37m,[m
+    [1;34m"name"[m[1;37m:[m [32m"nexusops-smart-bridge"[m[1;37m,[m
+    [1;34m"primaryLanguage"[m[1;37m:[m [1;37m{[m
+      [1;34m"name"[m[1;37m:[m [32m"PHP"[m
+    [1;37m}[m[1;37m,[m
+    [1;34m"url"[m[1;37m:[m [32m"https://github.com/ahmedemadm90/nexusops-smart-bridge"[m
+  [1;37m}[m[1;37m,[m
+  [1;37m{[m
+    [1;34m"description"[m[1;37m:[m [32m"A professional Flutter task management app with Clean Architecture and Provider."[m[1;37m,[m
+    [1;34m"isFork"[m[1;37m:[m [33mfalse[m[1;37m,[m
+    [1;34m"name"[m[1;37m:[m [32m"taskflow-flutter"[m[1;37m,[m
+    [1;34m"primaryLanguage"[m[1;37m:[m [1;37m{[m
+      [1;34m"name"[m[1;37m:[m [32m"Dart"[m
+    [1;37m}[m[1;37m,[m
+    [1;34m"url"[m[1;37m:[m [32m"https://github.com/ahmedemadm90/taskflow-flutter"[m
+  [1;37m}[m[1;37m,[m
+  [1;37m{[m
+    [1;34m"description"[m[1;37m:[m [32m"A robust Laravel 11 REST API for e-commerce with Sanctum auth and advanced architecture."[m[1;37m,[m
+    [1;34m"isFork"[m[1;37m:[m [33mfalse[m[1;37m,[m
+    [1;34m"name"[m[1;37m:[m [32m"laracommerce-api"[m[1;37m,[m
+    [1;34m"primaryLanguage"[m[1;37m:[m [1;37m{[m
+      [1;34m"name"[m[1;37m:[m [32m"PHP"[m
+    [1;37m}[m[1;37m,[m
+    [1;34m"url"[m[1;37m:[m [32m"https://github.com/ahmedemadm90/laracommerce-api"[m
+  [1;37m}[m[1;37m,[m
+  [1;37m{[m
+    [1;34m"description"[m[1;37m:[m [32m"Privacy-focused offline voice-to-task AI assistant with local SQLite database, Arabic/English support, and daily limits."[m[1;37m,[m
+    [1;34m"isFork"[m[1;37m:[m [33mfalse[m[1;37m,[m
+    [1;34m"name"[m[1;37m:[m [32m"saydone-offline"[m[1;37m,[m
+    [1;34m"primaryLanguage"[m[1;37m:[m [1;37m{[m
+      [1;34m"name"[m[1;37m:[m [32m"Dart"[m
+    [1;37m}[m[1;37m,[m
+    [1;34m"url"[m[1;37m:[m [32m"https://github.com/ahmedemadm90/saydone-offline"[m
+  [1;37m}[m[1;37m,[m
+  [1;37m{[m
+    [1;34m"description"[m[1;37m:[m [32m"Professional OBD-II car diagnostic app with ELM327 Bluetooth integration, real-time telemetry gauges, and simulator mode."[m[1;37m,[m
+    [1;34m"isFork"[m[1;37m:[m [33mfalse[m[1;37m,[m
+    [1;34m"name"[m[1;37m:[m [32m"autoscan-pro"[m[1;37m,[m
+    [1;34m"primaryLanguage"[m[1;37m:[m [1;37m{[m
+      [1;34m"name"[m[1;37m:[m [32m"Dart"[m
+    [1;37m}[m[1;37m,[m
+    [1;34m"url"[m[1;37m:[m [32m"https://github.com/ahmedemadm90/autoscan-pro"[m
+  [1;37m}[m[1;37m,[m
+  [1;37m{[m
+    [1;34m"description"[m[1;37m:[m [32m"Real-time AI-powered assistant with live voice listening and stealth UI for interviews and meetings (Smog AI clone)."[m[1;37m,[m
+    [1;34m"isFork"[m[1;37m:[m [33mfalse[m[1;37m,[m
+    [1;34m"name"[m[1;37m:[m [32m"ghost-assist-ai"[m[1;37m,[m
+    [1;34m"primaryLanguage"[m[1;37m:[m [1;37m{[m
+      [1;34m"name"[m[1;37m:[m [32m"Dart"[m
+    [1;37m}[m[1;37m,[m
+    [1;34m"url"[m[1;37m:[m [32m"https://github.com/ahmedemadm90/ghost-assist-ai"[m
+  [1;37m}[m[1;37m,[m
+  [1;37m{[m
+    [1;34m"description"[m[1;37m:[m [32m""[m[1;37m,[m
+    [1;34m"isFork"[m[1;37m:[m [33mfalse[m[1;37m,[m
+    [1;34m"name"[m[1;37m:[m [32m"Ultra-Palestine"[m[1;37m,[m
+    [1;34m"primaryLanguage"[m[1;37m:[m [1;37m{[m
+      [1;34m"name"[m[1;37m:[m [32m"JavaScript"[m
+    [1;37m}[m[1;37m,[m
+    [1;34m"url"[m[1;37m:[m [32m"https://github.com/ahmedemadm90/Ultra-Palestine"[m
+  [1;37m}[m[1;37m,[m
+  [1;37m{[m
+    [1;34m"description"[m[1;37m:[m [32m""[m[1;37m,[m
+    [1;34m"isFork"[m[1;37m:[m [33mfalse[m[1;37m,[m
+    [1;34m"name"[m[1;37m:[m [32m"AuthLaravel8"[m[1;37m,[m
+    [1;34m"primaryLanguage"[m[1;37m:[m [1;37m{[m
+      [1;34m"name"[m[1;37m:[m [32m"PHP"[m
+    [1;37m}[m[1;37m,[m
+    [1;34m"url"[m[1;37m:[m [32m"https://github.com/ahmedemadm90/AuthLaravel8"[m
+  [1;37m}[m[1;37m,[m
+  [1;37m{[m
+    [1;34m"description"[m[1;37m:[m [32m"Ahmed Emad - Web & Mobile Full Stack Developer"[m[1;37m,[m
+    [1;34m"isFork"[m[1;37m:[m [33mfalse[m[1;37m,[m
+    [1;34m"name"[m[1;37m:[m [32m"ahmedemadm90.github.io"[m[1;37m,[m
+    [1;34m"primaryLanguage"[m[1;37m:[m [1;37m{[m
+      [1;34m"name"[m[1;37m:[m [32m"HTML"[m
+    [1;37m}[m[1;37m,[m
+    [1;34m"url"[m[1;37m:[m [32m"https://github.com/ahmedemadm90/ahmedemadm90.github.io"[m
+  [1;37m}[m
+[1;37m][m
